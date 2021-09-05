@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Dancing Script", cursive;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background: rgb(0, 0, 0);
+}
+.cart {
+  background: rgb(122, 122, 122);
+  width: 800px;
+  height: 400px;
+  border-radius: 200px 5px;
+  filter: blur(0px);
+  box-shadow: 0px 0px 11px 1px #310202;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transition: border-radius 500ms;
+}
+.nameContener {
+  display: block;
+  font-size: 5rem;
+}
+
+.conterDiplome {
+  display: none;
+  font-size: 2rem;
+}
+.cart:hover {
+  border-radius: 5px 200px;
+}
